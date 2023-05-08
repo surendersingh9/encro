@@ -35,6 +35,7 @@ if(!isset($_SESSION['userid'])){
   <body>
   <?php require 'files/_nav.php' ?>
   <div class="container">
+  <h3>Hello <?php echo $_SESSION['username']; ?>, You are in Welcome Page</h3>
     
     <h3>Hello <?php echo $_SESSION['username']; ?>, You are in Welcome Page</h3>
     <h4>List of Data </h4>
